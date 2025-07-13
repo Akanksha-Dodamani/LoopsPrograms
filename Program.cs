@@ -7,21 +7,24 @@ namespace LoopsProgram
         static void Main(string[] args)
         {
             // GUESS A NUMBER
-            NumberGuesser.GuessNumber();
+            //NumberGuesser.GuessNumber();
 
             // TREASURE HUNT
-            TreasureHunt.TreasureHuntMethod();
+            //TreasureHunt.TreasureHuntMethod();
 
             // WATER BILL GENERATOR
-            WaterbillGenerate.CalculateBill();
+            //WaterbillGenerate.CalculateBill();
 
             // Book discount calculator
-            Book book1 = new Book("The Power of Habit", "Charles Duhigg", 600.00, true);
-            Book book2 = new Book("C# Programming", "Jane Doe", 450.00, false);
+            //Book book1 = new Book("The Power of Habit", "Charles Duhigg", 600.00, true);
+            //Book book2 = new Book("C# Programming", "Jane Doe", 450.00, false);
 
-            Console.WriteLine(book1);
-            Console.WriteLine();
-            Console.WriteLine(book2);
+            //Console.WriteLine(book1);
+            //Console.WriteLine();
+            //Console.WriteLine(book2);
+
+            // Loops
+            Loops.LoopMethod();
         }
     }
 }
